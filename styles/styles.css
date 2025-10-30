@@ -1,0 +1,279 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin: 20px 0;
+  color: rgb(100, 109, 95);
+}
+
+#johny {
+  width: 9%;
+  min-width: 100px;
+
+}
+
+main {
+  padding-top: 160px
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(59, 22, 22, 0.95)
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(59, 22, 22, 0.95)
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 5%;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+header nav ul li {
+  padding-left: 5%;
+  border-left: 1px solid rgb(155, 155, 155);
+  max-width: max-content;
+  color: #cd9c9cbf;
+}
+
+header nav ul li:last-child {
+  padding-right: 5%;
+  border-right: 1px solid rgb(155, 155, 155);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: rgb(185, 4, 4);
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+blockquote {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+#photos article figure {
+  max-width: 280px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#photos article figure img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.text-aside {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.text-aside p {
+  flex: 2;
+  font-size: 18px;
+}
+
+.text-aside aside {
+  flex: 1;
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.text-aside #info {
+  font-size: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+footer p {
+  padding-left: 5%;
+  max-width: max-content;
+  color: #cd9c9cbf;
+}
+
+
+
+/* 2 сторінка contact.html */
+
+
+#textforfloat{
+  font-size: 30px;
+}
+#float1{
+ float: left;
+ width: 300px;
+ margin: 10px;
+}
+#float2{
+  float: right;
+  height: 400px;
+ }
+#float3{
+  float: none;
+  width: 400px;
+}
+#uniquelink{
+  all: unset;
+  cursor: pointer;
+  color: rgb(185, 4, 4); 
+  text-decoration: underline; 
+}
+
+#uniquelink:hover {
+  color: rgb(185, 4, 4);
+  text-decoration: underline;
+}
+
+#memes{
+  width: 70%;
+}
+#multiimages{
+  width: 250px;
+  position: absolute;
+  top: 10%;
+  left: 75%
+}
+#multiimages img{
+  width: 150px;
+  position: absolute;
+}
+#multiimages img{
+  border: 5px solid #000000 ;
+}
+#multiimages img:nth-child(2){
+  top: 100px;
+  left: 100px;
+}
+#multiimages img:nth-child(3){
+  top: 200px;
+  left: 200px;
+}
+
+
+/* для форм */
+
+
+form {
+  width: 60%;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+form label {
+  display: block;
+  margin: 10px 0;
+}
+
+form input, form select, form textarea {
+  width: 95%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  background: #3b1616;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #b90404;
+}
+
+form label {
+  display: inline-block;
+  width: 200px;
+  margin: 5px 0;
+}
+
+form input, form select, form textarea {
+  width: 250px;
+  padding: 4px;
+  margin: 5px 0;
+}
+
+#formmenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  padding: 10px 0;
+  z-index: 1;
+  text-align: center;
+}
+#formmenu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+#formmenu a:hover{
+  color: yellow;
+}

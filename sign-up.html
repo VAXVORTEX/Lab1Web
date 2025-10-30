@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Реєстрація</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <h1>Форма реєстрації</h1>
+  <form>
+    <label>Ім’я:</label>
+    <input type="text" name="fname" required><br>
+
+    <label>Прізвище:</label>
+    <input type="text" name="lname" required><br>
+
+    <label>Стать:</label>
+    <input type="radio" name="gender" value="male"> Чоловік
+    <input type="radio" name="gender" value="female"> Жінка<br>
+
+    <label>Вік:</label>
+    <input type="number" name="age" min="1" max="120"><br>
+
+    <label>Дата народження:</label>
+    <input type="date" name="bdate"><br>
+
+    <label>Країна проживання:</label>
+    <select name="country">
+      <option>Україна</option>
+      <option>Польща</option>
+      <option>Німеччина</option>
+      <option>Інша</option>
+    </select><br>
+
+    <label>Номер телефону:</label>
+    <input type="tel" name="phone" placeholder="+38(0xx)xxx-xx-xx"><br>
+
+    <label>Соцмережа:</label>
+    <input type="text" name="social"><br>
+
+    <label>Електронна пошта:</label>
+    <input type="email" name="email" required><br>
+
+    <label>Пароль:</label>
+    <input type="password" name="pass" required><br>
+
+    <label>Чи згідні Ви з умовами?</label>
+    <input type="checkbox" name="agree"><br>
+
+    <button type="submit">Зареєструватись</button>
+    <button type="reset">Відміна</button>
+  </form>
+</body>
+</html>
